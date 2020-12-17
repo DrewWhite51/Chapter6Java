@@ -18,6 +18,7 @@ public class Car {
     public Car(int yearModel, String make){
         this.yearModel = yearModel;
         this.make = make;
+        this.speed = 0;
     }
     
     public int getSpeed(){
